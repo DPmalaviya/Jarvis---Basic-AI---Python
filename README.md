@@ -2,7 +2,7 @@ Dear audience,
 
 Welcome to this AI project repository! The focus of this project is Jarvis, a basic AI that utilizes deep learning techniques with the PyTorch library.
 
-Update 2:
+Update 0:
 
 To activate Jarvis, simply clap and the program will begin speaking. In addition to recognizing claps, Jarvis utilizes a database containing personal information such as family and friends' names. It is important to note that if you are running the program for the first time, the AI will say the name provided in the database, which can be modified to your desired name.
 
