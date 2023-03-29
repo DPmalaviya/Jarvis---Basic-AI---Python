@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 import os
 from time import sleep
 from selenium import webdriver
-import pandas as pd
+import pandas as pd #this libarary used when you have to intrect with contacts file in ListWeb (If you have to use full contact then add pandas to ListWeb)
 from Body.Speak import Speak
 import pathlib
 import keyboard
@@ -27,8 +27,8 @@ driver.get("https://web.whatsapp.com/")
 keyboard.press('enter')
 Speak("Initializing The Whatsapp Web.")
 
-ListWeb = {'me' : "+916354090340",
-            'mother': "+919328201528",
+ListWeb = {'me' : "+91",
+            'mother': "+91",
             "pote": '+91'}
 
 def WhatsappSender(Name):
