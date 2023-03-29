@@ -11,7 +11,7 @@ from googletrans import Translator #pip install googletrans==3.1.0a0
 def Litsen():
     r = sr.Recognizer()
     
-    with sr.Microphone() as source:
+    with sr.Microphone() as source: # change Microphone(device_index=2) to change devices
         print("Listening...")
         r.pause_threshold = 1
         audio = r.listen(source,0,8) #8 means listening till 8 sec not working then remove 0 and 8

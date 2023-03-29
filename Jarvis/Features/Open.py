@@ -3,6 +3,8 @@ import keyboard
 import pyautogui
 import webbrowser
 from time import sleep
+from Body.Speak import Speak
+from Body.Litsen import MicExecution
 
 def OpenExe(Query):
     Query = str(Query)
@@ -36,4 +38,30 @@ def OpenExe(Query):
         cls_web = Nameofweb.replace(" ","")
         Link = f"{cls_web}.com"
         webbrowser.open(Link)
-        return True   
+        return True
+    #spotify song play
+    elif 'play' in Query:
+        
+        while True:    
+            Speak('Sir what song should i play...')
+            song = MicExecution()
+            if song != "":
+                break
+        
+        webbrowser.open(f'https://open.spotify.com/search/{song}')
+        sleep(6)
+        pyautogui.doubleClick(x=975, y=383)
+        Speak('Playing ' + song)
+        return True
+    
+    # elif 'play' in Query or 'can you play' in Query or 'please play' in Query:
+    #     Speak("OK! here you go!!")
+    #     Query = Query.replace("play", "")
+    #     Query = Query.replace("could you play", "")
+    #     Query = Query.replace("please play", "")
+    #     webbrowser.open(f'https://open.spotify.com/search/{Query}')
+    #     sleep(10)
+    #     pyautogui.click(x=1055, y=617)
+    #     print('Enjoy! ' + Query)
+    #     Speak("Enjoy Sir!!") 
+    #     return True    

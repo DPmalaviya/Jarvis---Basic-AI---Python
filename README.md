@@ -10,3 +10,6 @@ Furthermore, if you would like to save the chat log, simply uncomment the write 
 
 Thank you for visiting this repository, and we hope you find this project informative and enjoyable to experiment with!
 
+I recently added an exciting new feature to our Python codebase. The code is now able to play songs, which greatly enhances the user experience. Additionally, I was able to fix a bug where the code would deploy Web WhatsApp on its first run, but now, when the user tries to send a message, it correctly deploys Web WhatsApp. 
+
+To add an extra touch of personality, I also incorporated the iconic "Jarvis starting music" from YouTube into our codebase, giving it a fun and unique touch. These changes will undoubtedly make our code more efficient, user-friendly, and enjoyable to use.

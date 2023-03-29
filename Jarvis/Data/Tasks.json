@@ -1,10 +1,15 @@
 {
-    "intents":[
+    "intents": [
         {
-            "tag":"greets",
-            "patterns":["hello","hii","hey"
+            "tag": "greets",
+            "patterns": [
+                "hello",
+                "hii",
+                "hey",
+                "hi jarvis"
             ],
-            "responses":["Hello Sir :)",
+            "responses": [
+                "Hello Sir :)",
                 "Hey, I Was Really Waiting For Your Presence.",
                 "Hey, I Was Literally Waiting For Your Presence.",
                 "Hey, I Was Waiting For Your Presence.",
@@ -17,10 +22,16 @@
             ]
         },
         {
-            "tag":"bye",
-            "patterns":["bye","goodbye","see you later","sleep","exit"
+            "tag": "bye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you later",
+                "sleep",
+                "exit"
             ],
-            "responses":["Bye...",
+            "responses": [
+                "Bye...",
                 "Are You Sure?",
                 "I'm Jarvis & Here's My Byee.",
                 "Bye Sir, I Will Be There For You Again",
@@ -30,32 +41,89 @@
             ]
         },
         {
-            "tag":"HAALCHAL",
-            "patterns":["how are you","fine"
+            "tag": "HAALCHAL",
+            "patterns": [
+                "how are you",
+                "fine"
             ],
-            "responses":["I Am Fine.",
+            "responses": [
+                "I Am Fine.",
                 "Fine!"
             ]
         },
         {
-            "tag":"open",
-            "patterns":["launch","visit"
+            "tag": "open",
+            "patterns": [
+                "launch",
+                "visit"
             ],
-            "responses":["open"
+            "responses": [
+                "open"
             ]
         },
         {
-            "tag":"start",
-            "patterns":["open","start"
+            "tag": "start",
+            "patterns": [
+                "open",
+                "start"
             ],
-            "responses":["start"
+            "responses": [
+                "start"
             ]
         },
         {
-            "tag":"whatsapp",
-            "patterns":["send message","send","message to"
+            "tag": "whatsapp",
+            "patterns": [
+                "send message",
+                "send",
+                "message to"
             ],
-            "responses":["whatsapp"
+            "responses": [
+                "whatsapp"
+            ]
+        },
+        {
+            "tag": "play",
+            "patterns": [
+                "song please",
+                "play some song",
+                "cound you play a song",
+                "play a song",
+                "play",
+                "can you play",
+                "please play",
+                "music please",
+                "play some music",
+                "cound you play a music",
+                "play a music",
+                "i want to listen some music"
+            ],
+            "responses": [
+                "play"
+            ]
+        },
+        {
+            "tag": "lonely",
+            "patterns": [
+                "i am not felling well today",
+                "i am not felling well",
+                "mood better",
+                "sad",
+                "down",
+                "upset",
+                "miserable",
+                "depression",
+                "depressed",
+                "unhappy",
+                "upset",
+                "lonely"
+            ],
+            "responses": [
+                "If You Feel Lonely Then LIsten - I Am The Creator Of My Story - Sandeep Maheshwari",
+                "Be yourself, Everyone else is already taken. - Oscar Wilde",
+                "Don't Feel Lonely There Are Many Thing You Can Do",
+                "Jarvis Is Always With You.",
+                "You Have Me Don't Be Feel Unhappy."
             ]
         }
     ]

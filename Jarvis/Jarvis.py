@@ -1,6 +1,8 @@
+import playsound
 from Brain.AIBrain import ReplyBrain
 from Body.Litsen import MicExecution
 print("\n>> Starting The Jarvis : Wait For Some Seconds...")
+playsound.playsound("wakeup.mp3",False)
 from Body.Speak import Speak
 from Features.Clap import Tester
 print(">> .. Jarvis Is Started .. <<")

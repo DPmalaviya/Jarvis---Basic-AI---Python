@@ -242,6 +242,9 @@ def MainTaskExecution(Query):
     elif ReturnData is not None and "start" in ReturnData:
         Value = OpenExe(TaskNew)
         return Value
+    elif ReturnData is not None and "play" in ReturnData:
+        Value = OpenExe("play")
+        return Value
     elif ReturnData is not None and "whatsapp" in ReturnData:
         Namen = str(TaskNew).replace("send ","")
         Namen = str(Namen).replace("whatsapp ","")
@@ -251,6 +254,7 @@ def MainTaskExecution(Query):
         Namen = str(Namen).replace("this ","")
         WhatsappSender(Namen)
         return True
+    return TasksExecutor(Task)
                     
 # while True:
 #     kk=input("Enter : ")            

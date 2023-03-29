@@ -13,25 +13,25 @@ from Body.Litsen import MicExecution
 
 scriptDirectory = pathlib.Path().absolute()
 
-options = Options()
-options.add_experimental_option("excludeSwitches", ["enable-logging"])
-options.add_argument("--profile-directory=Default")
-options.add_argument(f"user-data-dir={scriptDirectory}\\userdata")
-os.system("")
-os.environ["WDM_LOG_LEVEL"] = "0"
-#options.headless = True #background wp running
-PathofDriver = "DataBase\\chromedriver.exe"
-driver = webdriver.Chrome(PathofDriver,options=options)
-driver.maximize_window()
-driver.get("https://web.whatsapp.com/")
-keyboard.press('enter')
-Speak("Initializing The Whatsapp Web.")
-
-ListWeb = {'me' : "+91",
-            'mother': "+91",
-            "pote": '+91'}
 
 def WhatsappSender(Name):
+    options = Options()
+    options.add_experimental_option("excludeSwitches", ["enable-logging"])
+    options.add_argument("--profile-directory=Default")
+    options.add_argument(f"user-data-dir={scriptDirectory}\\userdata")
+    os.system("")
+    os.environ["WDM_LOG_LEVEL"] = "0"
+    #options.headless = True #background wp running
+    PathofDriver = "DataBase\\chromedriver.exe"
+    driver = webdriver.Chrome(PathofDriver,options=options)
+    driver.maximize_window()
+    driver.get("https://web.whatsapp.com/")
+    keyboard.press('enter')
+    Speak("Initializing The Whatsapp Web.")
+
+    ListWeb = {'me' : "+91",
+                'mother': "+91",
+                "pote": '+91'}
     Speak(f"Preparing To Send a Message To {Name}")
     Speak("What's The Message By The Way?")
     Message = MicExecution()
