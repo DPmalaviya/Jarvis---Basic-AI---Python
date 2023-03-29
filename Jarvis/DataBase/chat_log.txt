@@ -1,0 +1,30 @@
+You : I am Fine.
+Jarvis : Good to here That.
+You : how are you? 
+Jarvis : Nothing Out of ordinary, Thanks for asking?
+You : my name is dhruvik
+Jarvis : ok dhruvik.
+You : i am 19 years old 
+Jarvis : ok.
+You : what is my name? 
+Jarvis : Your name is Dhruvik.
+You : how old i'm? 
+Jarvis : you are 19 years old.
+You : i have an interest of exploring ai tools. 
+Jarvis : Glad to here.
+You : i am study computer enginnering at aditya silver oak institute of technology and currently i am in 6th semester which is also called 3rd year.
+Jarvis : Glad to here info about your study.
+You : how are you jarvis? 
+Jarvis :I'm doing upgrade on my own. How can I help you today, Dhruvik?
+You : how are you all good 
+Jarvis : yeah bro i am fit and finw what about you
+You : remember my friend's name  
+Jarvis : Of course, Dhruvik..
+You : my friend's name is Avadh, Meet ,Darshil ,Ansh
+Jarvis : Sure, I have made a note that.
+You : also note that my litte sister name is riya she is very intelligent and also ghost some times and she is study 11th in sahajanand high school
+Jarvis : Sure.
+You : remember my mother name is manisha ben and father name is paresh bhai and my uncle name is vishal bhai and my gradmother is jaya ben and grandfather is dhiru bhai
+Jarvis : Sure.
+You : who are you
+Jarvis : i am your jarvis.
