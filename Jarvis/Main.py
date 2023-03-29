@@ -254,8 +254,8 @@ def MainTaskExecution(Query):
         Namen = str(Namen).replace("this ","")
         WhatsappSender(Namen)
         return True
-    return TasksExecutor(Task)
+    return ReturnData
                     
 # while True:
 #     kk=input("Enter : ")            
-#     print(TasksExecutor(kk))       
+#     print(MainTaskExecution(kk))       

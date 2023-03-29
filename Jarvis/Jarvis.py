@@ -20,11 +20,14 @@ def MainExecution():
         ValueReturn = MainTaskExecution(Data)
         if ValueReturn == True:
             pass
-        elif Data == "":
-            continue 
+        if ValueReturn == None:
+            if Data == "":
+                continue 
+            else:
+                Replay = ReplyBrain(Data)
+                Speak(Replay)
         else:
-            Replay = ReplyBrain(Data)
-            Speak(Replay)   
+            Speak(ValueReturn)           
 
 def ClapDetect():
     query = Tester()
