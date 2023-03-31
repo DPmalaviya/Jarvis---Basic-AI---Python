@@ -3,7 +3,6 @@
 # Windows Based pip install pyttsx3
 # Chrome Based pip install selenium==4.1.3
 
-
 # windows Based
 import pyttsx3
 
@@ -74,4 +73,4 @@ def Speak(Text):
 #         else:
 #             sleep(2)    
             
-#Speak("hello jarvis how are you?")                      
+# #Speak("hello jarvis how are you?")                      

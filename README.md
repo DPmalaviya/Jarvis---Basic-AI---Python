@@ -1,4 +1,10 @@
-Dear audience,
+Hey hey hey, my lovely people!
+
+Thanks for stopping by my humble little Github repo! I'm honored that you took the time to check out my work, even though it probably looks like a monkey coded it while juggling bananas.
+
+But hey, who needs a fancy-pants coding style when you've got heart and a can-do attitude? I'm like the scrappy underdog of Github, and I appreciate you rooting for me.
+
+So go ahead and explore to your heart's content. Just promise me you won't judge me too harshly for my questionable coding practices. After all, we're all just doing our best out here in the wild world of programming.
 
 Welcome to this AI project repository! The focus of this project is Jarvis, a basic AI that utilizes deep learning techniques with the PyTorch library.
 
@@ -16,4 +22,14 @@ I recently added an exciting new feature to our Python codebase. The code is now
 
 To add an extra touch of personality, I also incorporated the iconic "Jarvis starting music" from YouTube into our codebase, giving it a fun and unique touch. These changes will undoubtedly make our code more efficient, user-friendly, and enjoyable to use.
 
-Thank you for visiting this repository, and we hope you find this project informative and enjoyable to experiment with!
+Update 2:
+
+Good news everyone! I fixed the Spotify search function. No more weird and wacky results like "Come to Valam" when you search for "Valam Aavone". It was like the algorithm had a case of the giggles! 🤣 But don't worry, I gave it a stern talking-to and now it's back to normal.
+
+I also added a fun little code snippet to the Open.py file that lets you find the x and y position on your personal screen. You can use this to play around with the pointer on the Spotify web player, which is perfect for those times when you need to procrastinate but still want to feel productive.
+
+And if that wasn't enough, I also fixed the "Visit YouTube" issue. It was working before, but it was also saying "True", which made no sense. I mean, I know it's true that you're visiting YouTube, but you don't need a robot to tell you that! 😂
+
+Anyway, that's all for now. Stay tuned for more updates, and don't hesitate to give me a shout if you have any questions.
+
+Thanks again for dropping by, and remember: keep coding and keep laughing!

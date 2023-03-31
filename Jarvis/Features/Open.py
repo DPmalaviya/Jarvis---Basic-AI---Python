@@ -4,7 +4,7 @@ import pyautogui
 import webbrowser
 from time import sleep
 from Body.Speak import Speak
-from Body.Litsen import MicExecution
+from Body.Litsen import Raw_English_Listen
 
 def OpenExe(Query):
     Query = str(Query)
@@ -44,13 +44,20 @@ def OpenExe(Query):
         
         while True:    
             Speak('Sir what song should i play...')
-            song = MicExecution()
+            song = Raw_English_Listen()
             if song != "":
+                Speak('Playing some music for you now. Enjoy!')
                 break
         
         webbrowser.open(f'https://open.spotify.com/search/{song}')
         sleep(6)
         pyautogui.doubleClick(x=975, y=383)
+        # for taking x and y value f screen
+        # import pyautogui
+        # from time import sleep
+        # sleep(1)
+        # kkk = pyautogui.position()
+        # print(kkk)
         Speak('Playing ' + song)
         return True
     

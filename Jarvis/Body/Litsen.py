@@ -6,7 +6,7 @@
 import speech_recognition as sr
 from googletrans import Translator #pip install googletrans==3.1.0a0
 
-# 1 = Litsen : Hindi or English
+# 1 = Litsen : Hindi or English or Gujarati
 
 def Litsen():
     r = sr.Recognizer()
@@ -18,7 +18,7 @@ def Litsen():
     
     try:
         print("Recognizing...")   
-        query = r.recognize_google(audio,language="gu") 
+        query = r.recognize_google(audio,language="gu-IN") 
     
     except:
         return ""
@@ -30,7 +30,7 @@ def Litsen():
 
 # 2 = Translation
 
-def TranslationHindiToEnglish(Text):
+def TranslationGujratiToEnglish(Text):
     line = str(Text)
     translate = Translator()
     result = translate.translate(line)
@@ -42,5 +42,23 @@ def TranslationHindiToEnglish(Text):
 
 def MicExecution():
     query = Litsen()
-    data = TranslationHindiToEnglish(query)
+    data = TranslationGujratiToEnglish(query)
     return data
+
+def Raw_English_Listen():
+    r = sr.Recognizer()
+    
+    with sr.Microphone() as source: # change Microphone(device_index=2) to change devices
+        print("Listening...")
+        r.pause_threshold = 1
+        audio = r.listen(source,0,8) #8 means listening till 8 sec not working then remove 0 and 8
+    
+    try:
+        print("Recognizing...")   
+        query = r.recognize_google(audio,language="en-IN") 
+    
+    except:
+        return ""
+    
+    query = str(query).lower()
+    return query  

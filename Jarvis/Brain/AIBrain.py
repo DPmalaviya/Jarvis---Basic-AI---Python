@@ -19,6 +19,5 @@ def ReplyBrain(question, chat_log=None):
 #     FileLog = open("DataBase\\chat_log.txt","w")
 #     FileLog.write(chat_log_template_update)
 #     FileLog.close()
-    print(answer)
     return answer
 # ReplyBrain("what is the whether in ahmedabad")

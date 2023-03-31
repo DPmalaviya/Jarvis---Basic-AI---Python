@@ -20,7 +20,7 @@ def MainExecution():
         ValueReturn = MainTaskExecution(Data)
         if ValueReturn == True:
             pass
-        if ValueReturn == None:
+        elif ValueReturn == None:
             if Data == "":
                 continue 
             else:
